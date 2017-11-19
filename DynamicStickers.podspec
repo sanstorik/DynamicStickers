@@ -23,11 +23,11 @@ Pod::Spec.new do |s|
                        with good amount of customization in just one method.
                        Save this photo in one line and use it in you library.'
 
-  s.homepage         = 'https://github.com/sanstorik/dynamic_stickers'
+  s.homepage         = 'https://github.com/sanstorik/DynamicStickers'
 #s.screenshots     = 'https://prnt.sc/hcks0p'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sanstorik' => 'shvetsovvitaliy06@gmail.com' }
-  s.source           = { :git => 'https://github.com/sanstorik/dynamic_stickers.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/sanstorik/DynamicStickers.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/no_name'
 
   s.ios.deployment_target = '8.0'
