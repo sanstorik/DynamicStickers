@@ -1,0 +1,6 @@
+framework module DynamicStickers {
+  umbrella header "DynamicStickers-umbrella.h"
+
+  export *
+  module * { export * }
+}
