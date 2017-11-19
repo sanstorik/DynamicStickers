@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DynamicStickers_Example' do
+  pod 'DynamicStickers', :path => '../'
+
+  target 'DynamicStickers_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
