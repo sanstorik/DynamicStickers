@@ -86,7 +86,7 @@ public extension DynamicStickersHandler where Self: UIViewController {
         }
         
         UIGraphicsBeginImageContextWithOptions(rootImageView.bounds.size, rootImageView.isOpaque, 0)
-        rootImageView.drawHierarchy(in: rootImageView.bounds, afterScreenUpdates: false)
+        rootImageView.drawHierarchy(in: rootImageView.bounds, afterScreenUpdates: true)
         let snapshot = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         
